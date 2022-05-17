@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <title>Kenzie Food</title>
+</head>
+
+<body>
+    <!--HEADER E NAVEGAÇÃO-->
+    <header class="header">
+        <div class="content--Menu">
+            <div class="title"> 
+                <h2 class="header--title1">Kenzie</h2>
+                <h3 class="header--title2">Food</h3>
+            </div>
+            <div class="btn--header">
+                <button class="btn--search"><span class="iconify" data-icon="ph:magnifying-glass" style="color: gray;"></span>Pesquisar por produto</button>
+                <span class="iconify" data-icon="carbon:user-avatar-filled" style="color: gray;"></span>
+            </div>
+        </div>
+    </header>
+
+    <!--NAVEGAÇÃO PELOS PRODUTOS-->
+    <nav class="nav--filter">
+        <ul class="filter--products">
+            <li class="filtered--product--todos">Todos</li>
+            <li class="filtered--product--panificadora"><span class="iconify" data-icon="emojione-v1:bread"
+                    style="color: gray;" ></span>
+                Panificadora</li>
+            <li class="filtered--product--frutas"><span class="iconify" data-icon="openmoji:half-orange-fruit"
+                    style="color: gray;"></span> 
+                Frutas</li>
+            <li class="filtered--product--bebidas"><span class="iconify" data-icon="noto:wine-glass" style="color: gray;"></span>
+                Bebidas</li>
+        </ul>
+    </nav>
+
+
+    <!--CARD DE PRODUTOS-->
+    <section class="container">
+        <main class="container--cards">
+        <!--
+          <div class="cards--container">
+            <img src="/img/img/Frame 5.jpg" alt="panquecas">
+            <h2 class="name--product">Panqueca de banana com aveia</h2>
+            <p class="description--product">Esta receita serve muito bem 2 pessoas, deixa a gente bem satisfeito, se não
+                tiver outra opção de café. Se tiver mais comida, como pães e frutas.</p>
+            <h3 class="product--filter">Panificadora Frutas</h3>
+            <p class="price">R$ 20
+                <span class="iconify" data-icon="emojione-monotone:shopping-cart" style="color: #0ca678;"
+                    data-flip="horizontal"></span>
+            </p>
+        </div>
+
+        <div class="cards--container">
+            <img src="/img/img/morango.png" alt="morango">
+            <h2 class="name--product">Mousse de morango com a fruta
+            </h2>
+            <p class="description--product">Sobremesa fácil, rápida e muito saborosa: a mousse de morango leva apenas 5 ingredientes; confira como fazer a receita</p>
+            <h3 class="product--filter">Frutas</h3>
+            <p class="price">R$ 27,50
+                <span class="iconify" data-icon="emojione-monotone:shopping-cart" style="color: #0ca678;"
+                    data-flip="horizontal"></span>
+            </p>
+        </div>
+
+        <div class="cards--container">
+            <img src="/img/img/pastel.png" alt="pastel">
+            <h2 class="name--product">Pastel de verduras vegano
+            </h2>
+            <p class="description--product">Todos nós fervemos vegetais, salteamos ou consumimos crus. Mas que tal comer vegetais como se fossem um bolo?</p>
+            <h3 class="product--filter">Panificadora</h3>
+            <p class="price">R$ 20
+                <span class="iconify" data-icon="emojione-monotone:shopping-cart" style="color: #0ca678;"
+                    data-flip="horizontal"></span>
+            </p>
+        </div>
+        <div class="cards--container">
+            <img src="/img/img/pizza.png" alt="pizza">
+            <h2 class="name--product">Pizza vegetariana de palmito
+            </h2>
+            <p class="description--product">Esse é um dos sabores de pizza mais pedidos por quem não come carne
+            </p>
+            <h3 class="product--filter">Panificadora
+            </h3>
+            <p class="price">R$ 20
+                <span class="iconify" data-icon="emojione-monotone:shopping-cart" style="color: #0ca678;"
+                    data-flip="horizontal"></span>
+            </p>
+        </div>
+
+        <div class="cards--container">
+            <img src="/img/img/vinho.png" alt="vinho">
+            <h2 class="name--product">Vinho suave
+            </h2>
+            <p class="description--product">O vinho é rico em compostos nutricionais muito importantes para a nossa saúde: os polifenóis. Também auxiliam no sistema imunológico
+            </p>
+            <h3 class="product--filter">Bebidas</h3>
+            <p class="price">R$ 20
+                <span class="iconify" data-icon="emojione-monotone:shopping-cart" style="color: #0ca678;"
+                    data-flip="horizontal"></span>
+            </p>
+        </div>
+
+        <div class="cards--container">
+            <img src="/img/img/laranja.png" alt="laranja">
+            <h2 class="name--product">Laranja Pera Fresca Kenzie 5kg
+            </h2>
+            <p class="description--product">Bastante popular no Brasil, a laranja é uma das maiores representantes das frutas cítricas. Seu sabor costuma ser doce ou levemente ácido
+            </p>
+            <h3 class="product--filter">Frutas Bebidas</h3>
+            <p class="price">R$ 20
+                <span class="iconify" data-icon="emojione-monotone:shopping-cart" style="color: #0ca678;"
+                    data-flip="horizontal"></span>
+            </p>
+        </div>
+      -->
+    </main>
+        <!--CARRINHO DE COMPRAS-->
+        <aside class="aside--cart">
+            <div class="cart--body">
+                <div class="title--cart">
+                    <h2> <span class="iconify" data-icon="emojione-monotone:shopping-cart" style="color: white;" data-flip="horizontal"></span>Carrinho</h2>
+                </div>
+                <div id="cart">
+                    <span class="iconify" data-icon="charm:shopping-bag" style="color: gray;"></span>
+                    <p>Por enquanto não temos produtos no carrinho</p>
+                </div>
+
+                <div class="purchases">
+                    <p>Quantidade:</p>
+                    <span class="cart--value">0</span>
+                    <p>Total:</p>
+                    <p class="cart--price">R$
+                        <span class="total--value">
+                        </span>
+                    </p>
+                </div>
+                <div class="btn--buy">
+                    <button class="buy">Comprar</button>
+                </div>
+            </div>
+        </aside>
+ 
+    </section>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script type="module" src="/src/js/models/api.js"></script>
+    <script type="module" src="/src/js/controllers/renderProducts.js" ></script>
+</body>
+
+</html>
